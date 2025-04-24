@@ -10,7 +10,7 @@
     <div class="intro" id="home">
       <div class="container">
         <div class="intro__inner">
-          <header>
+          <header class="">
             <h2 class="logo">Nomadica</h2>
             <ul class="nav">
               <li><a href="#home">Home</a></li>
@@ -101,7 +101,13 @@
             <div class="feedback__title">Your Next Adventure Starts Here</div>
             <form action="/submit" method="POST">
               <input class="input" type="text" name="username" placeholder="Name" />
-              <input class="input required" type="email" placeholder="Email" required />
+              <input
+                class="input required"
+                type="email"
+                name="userEmail"
+                placeholder="Email"
+                required
+              />
               <div class="checkbox">
                 <input type="checkbox" />
                 <p>I accept Privacy policy</p>
@@ -147,5 +153,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="src/js/index.js"></script>
   </body>
 </html>
