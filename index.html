@@ -7,34 +7,31 @@
     <title>Test task</title>
   </head>
   <body>
-    <div class="intro">
+    <div class="intro" id="home">
       <div class="container">
         <div class="intro__inner">
           <header>
-            <h2 class="logo">LOREM</h2>
+            <h2 class="logo">Nomadica</h2>
             <ul class="nav">
-              <li>Consectetur</li>
-              <li>Sit Amet</li>
-              <li>Eiusmod Tempor</li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#benefits">Benefits</a></li>
+              <li><a href="#feedback">Feedback</a></li>
+              <li><a href="#contacts">Contacts</a></li>
             </ul>
           </header>
           <div class="offer">
-            <h1 class="offer__title">Lorem ipsum dolor sit amet</h1>
-            <h3 class="offer__subtitle">sed do eiusmod tempor</h3>
+            <h1 class="offer__title">Your Journey Begins Here</h1>
+            <h3 class="offer__subtitle">From dream to destination – seamlessly</h3>
             <ul class="offers__list">
               <li>
-                do
-                <h4>$10 000</h4>
-                consectetur elit
+                <h4>Best price guarantee</h4>
               </li>
               <li>
-                <h4>30%</h4>
-                sed do eiusmod tempor
+                Dedicated Travel Concierge
+                <h4>24/7</h4>
               </li>
               <li>
-                do
-                <h4>17%</h4>
-                adipiscing elit sed do
+                <h4>Zero hidden fees</h4>
               </li>
             </ul>
             <button class="offer__button">Order</button>
@@ -43,5 +40,112 @@
         </div>
       </div>
     </div>
+    <div class="benefits" id="benefits">
+      <div class="container">
+        <div class="benefits__inner">
+          <img class="benefits__img hidden" src="src/images/2_section_img_1.png" alt="" />
+          <div class="benefits__placeholder hidden"></div>
+          <div class="benefits__content">
+            <div class="benefits__item">
+              <img src="src/images/icon_flower.svg" alt="" />
+              <p>
+                From flights to hotels to local experiences - we handle every detail so you don't
+                have to worry about a thing
+              </p>
+            </div>
+            <div class="benefits__item">
+              <img src="src/images/icon_flower.svg" alt="" />
+              <p>
+                Our industry connections get you luxury stays and unique experiences at prices you
+                won't find online
+              </p>
+            </div>
+            <div class="benefits__item">
+              <img src="src/images/icon_flower.svg" alt="" />
+              <p>
+                Missed connection? Medical emergency? Lost luggage? Our global assistance team is on
+                call 24/7 to solve any travel disaster
+              </p>
+            </div>
+            <div class="benefits__item">
+              <img src="src/images/icon_flower.svg" alt="" />
+              <p>
+                We don't just book trips - we design experiences tailored to your exact travel
+                personality and pace
+              </p>
+            </div>
+            <div class="benefits__item">
+              <img src="src/images/icon_flower.svg" alt="" />
+              <p>
+                Enjoy room upgrades, private transfers, and special welcomes at every destination -
+                our partners treat our clients like royalty
+              </p>
+            </div>
+
+            <button class="benefits__button">Order</button>
+          </div>
+          <img
+            class="benefits__img img__right hidden"
+            src="src/images/2_section_img_2.png"
+            alt=""
+          />
+          <div class="benefits__placeholder hidden"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="feedback" id="feedback">
+      <div class="container">
+        <div class="feedback__inner">
+          <div class="form__block">
+            <div class="feedback__title">Your Next Adventure Starts Here</div>
+            <form action="/submit" method="POST">
+              <input class="input" type="text" name="username" placeholder="Name" />
+              <input class="input required" type="email" placeholder="Email" required />
+              <div class="checkbox">
+                <input type="checkbox" />
+                <p>I accept Privacy policy</p>
+              </div>
+              <button class="form__button" type="submit">Submit Form</button>
+            </form>
+            <img class="form__block__img" src="src/images/3_section_img_1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="contacts">
+      <div class="container">
+        <div class="footer__nav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </div>
+        <div class="contacts">
+          <div class="contacts__logo">
+            <div class="logo">Nomadica</div>
+            <p>© 2025, Copyright.</p>
+          </div>
+          <div class="contacts__icons">
+            <div class="icons__container">
+              <img src="src/images/instagram.svg" alt="" />
+              <img src="src/images/tik-tok.svg" alt="" />
+              <img src="src/images/inbox.svg" alt="" />
+              <img src="src/images/facebook.svg" alt="" />
+              <img src="src/images/telegram.svg" alt="" />
+              <img src="src/images/youtube.svg" alt="" />
+            </div>
+            <a href="#">Privacy policy</a>
+          </div>
+          <div class="footer__order">
+            <button class="footer__button">Order</button>
+            <a href="#">Terms of Use</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
